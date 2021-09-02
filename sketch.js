@@ -14,7 +14,7 @@ var world,boy;
 var launcher;
 
 function preload(){
-	boy=loadImage("images/boy.png");
+	boy=loadImage("boy.png");
 }
 
 function setup() {
@@ -25,7 +25,7 @@ function setup() {
 	stone = new Stone(235,420,30); 
 
 	mango1 = new Mango(1100,100,30);
-  mango2 = new Mango(1170,130,30);
+        mango2 = new Mango(1170,130,30);
 	mango3 = new Mango(1010,140,30);
 	mango4 = new Mango(1000,70,30);
 	mango5 = new Mango(1100,70,30);
